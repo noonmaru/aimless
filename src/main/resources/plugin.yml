@@ -1,5 +1,7 @@
 name: $pluginName
 main: $pluginMain
-depend: [Kotlin, Tap]
-api-version: '1.15'
+depend: [Kotlin, ProtocolLib]
+api-version: '1.16'
 version: $pluginVersion
+commands:
+  aimless:
